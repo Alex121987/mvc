@@ -27,4 +27,11 @@ public class Course {
         this.CourseCategory = category;
     }
 
+    static Course retriveCourseFromDatabase(){
+        Course course = new Course();
+        course.setName("Java");
+        course.setId("01");
+        course.setCategory("Programming");
+        return course;
+    }
 }
